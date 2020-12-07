@@ -1,12 +1,12 @@
 import React from 'react';
 
-const App = () => {
+const Home = () => {
   console.log('process.env', process.env.NODE_ENV);
   return(
     <div>
-      Hello world!
+      <h1>Home page</h1>
     </div>
   )
 }
 
-export default App;
+export default Home;
